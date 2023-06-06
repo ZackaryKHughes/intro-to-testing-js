@@ -9,3 +9,7 @@ function sayHello(input){
     } else
    return `Hello, ${input}!`;
 }
+
+function isFive(num) {
+    return num === 5;
+}
