@@ -3,6 +3,9 @@ function helloWorld() {
     return "Hello, World!";
 }
 
-function sayHello(name){
-   return `Hello, ${name}!`;
+function sayHello(input){
+    if (input === undefined || input === false || input === true) {
+        return "Hello, World!"
+    } else
+   return `Hello, ${input}!`;
 }
